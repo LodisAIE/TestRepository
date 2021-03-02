@@ -13,6 +13,11 @@ public class MovementBehaviour : MonoBehaviour
 
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Collision happened");
+    }
+
     // Update is called once per frame
     void Update()
     {
